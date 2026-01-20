@@ -90,9 +90,25 @@ An **AI-powered microlearning module** designed to enhance employee wellbeing th
 
 ## [The Deliverable]{style="color: #32fbe2;"}
 
-::: {.p-3 style="border: 1px solid #32fbe2; border-radius: 10px; background-color: rgba(50, 251, 226, 0.02);"}
-![](images/0119(1).mp4)
+<div>
+
+<section id="the-deliverable" class="level2">
+
+<h2 class="anchored" data-anchor-id="the-deliverable">
+
+::: {style="text-align:center; margin: 20px 0; border:1px solid #32fbe2; border-radius:10px; padding:10px; background-color: rgba(50,251,226,0.02);"}
+<iframe src="https://drive.google.com/file/d/17_r9MiwT4DYzpG_NIwZymB1c1uFe3g3N/preview"
+          width="640" height="360"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+          style="max-width:100%; border:none;"> </iframe>
+
+<p><em>AI Avatar Demo Video</em></p>
 :::
+
+</section>
+
+</div>
 
 <br>
 
