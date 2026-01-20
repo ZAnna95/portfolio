@@ -189,5 +189,5 @@ The map connects **visual storytelling** with structured information delivery to
 <br><br>
 
 ::: {.p-3 style="text-align: center; font-size: 0.9em; opacity: 0.8; border-top: 1px solid #32fbe2;"}
-**Let's connect!** [LinkedIn ](https://www.linkedin.com/in/a-te-profilod){style="color: #b967ff; text-decoration: none; font-weight: bold;"}[Profile](https://www.linkedin.com/in/anna-zambo-059970230/){style="color: #b967ff; text-decoration: none; font-weight: bold;"} <br> *Created by Anna Zambo — Built with Quarto & Design Thinking 2026*
+**Let's connect!** [LinkedIn](https://www.linkedin.com/in/a-te-profilod){style="color: #b967ff; text-decoration: none; font-weight: bold;"}[Profile](https://www.linkedin.com/in/anna-zambo-059970230/){style="color: #b967ff; text-decoration: none; font-weight: bold;"} <br> *Created by Anna Zambo — Built with Quarto & Design Thinking 2026*
 :::
