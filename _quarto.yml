@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Digital Content Portfolio" # Egyszerű cím, kiemelések nélkül
+  sidebar:
+    style: "docked"
+    background: dark
+    contents:
+      - section: "PROJECTS" # Ez nem lesz kattintható, csak egy fejléc
+        contents:
+          - text: "PROJECT 1"
+          - text: "PROJECT 2"
+  search: true
+
+format:
+  html:
+    theme: vapor
+    toc: false

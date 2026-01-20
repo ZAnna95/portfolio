@@ -1,0 +1,193 @@
+---
+title: "Digital Content Portfolio"
+subtitle: "Anna Zambo | Design & Development"
+format:
+  html:
+    theme: vapor
+    title-block-banner: true # Ez ad egy kék/lila hátteret a címnek
+    title-block-banner-color: "#32fbe2" # Ez lesz a betű színe a bannerben
+---
+
+```{=html}
+<style>
+/* Eltávolítja a neon hátteret és az animációt a címről */
+.title, .title.quarto-section-identifier {
+  background: none !important;
+  -webkit-text-fill-color: #32fbe2 !important; /* Marad a szép kék szín, de neon háttér nélkül */
+  text-shadow: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+/* Eltávolítja a neon villogást/effektet a navigációs sáv címéről is */
+.navbar-brand, .navbar-title {
+  background: none !important;
+  text-shadow: none !important;
+  color: #32fbe2 !important;
+}
+</style>
+```
+
+```{=html}
+<style>
+  /* Az oldal fő háttere egységes sötétlila */
+  body {
+    background-color: #1a0933 !important; 
+    background-image: none !important;
+  }
+
+  /* A tartalom területén is tiltjuk az átmeneteket */
+  main, .quarto-container {
+    background-color: #1a0933 !important;
+    background-image: none !important;
+  }
+
+  /* A FELSŐ SÁV (Navigáció) érintetlenül hagyása */
+  /* Ha a vapor téma alapértelmezett navbarját használod, 
+     ez a kód biztosítja, hogy az megőrizze a stílusát */
+  .navbar {
+    background-image: linear-gradient(to bottom right, #b967ff, #6d21d2) !important;
+    border-bottom: 1px solid #32fbe2; /* Egy kis kék vonal az alján, hogy jól nézzen ki */
+  }
+
+  /* Eltüntetjük a navigáció alatti esetleges fehér/szürke vonalakat */
+  .navbar-container {
+    background: transparent !important;
+  }
+</style>
+```
+
+::: {.p-4 .mt-5 style="border: 1px solid #b967ff; background-color: rgba(185, 103, 255, 0.03); border-radius: 12px; box-shadow: 0 4px 15px rgba(185, 103, 255, 0.1);"}
+# Hi, I’m [Anna]{style="color: #32fbe2;"}.
+
+I am a **Digital Content Designer** with a background in **International Relations**, currently transitioning my career toward digital content and instructional design.
+
+I combine [creative storytelling]{style="color: #32fbe2;"} with [cutting-edge AI technology]{style="color: #32fbe2;"} to develop content that is not only visually engaging but also strategically aligned with global business goals.
+:::
+
+<br>
+
+### Featured Expertise
+
+-   [Multimedia Production]{style="color: #32fbe2;"} (Video, Motion Graphics)
+-   [AI-Assisted Development]{style="color: #32fbe2;"} (HeyGen, Synthesia)
+-   [UX & Accessibility]{style="color: #32fbe2;"} for Global Teams
+
+<br>
+
+::: {.p-4 .mb-5 style="border: 1px solid #b967ff; background-color: rgba(185, 103, 255, 0.03); border-radius: 15px; box-shadow: 0 4px 15px rgba(185, 103, 255, 0.1);"}
+## PROJECT 1
+
+**Stress Management in the Modern Workplace**
+
+An **AI-powered microlearning module** designed to enhance employee wellbeing through scalable digital content.
+
+### [Technical Profile]{style="color: #32fbe2;"}
+
+-   **Tools Used:** [HeyGen]{style="color: #32fbe2; font-weight: bold;"} (AI Avatar & Voice Synthesis), [Adobe Creative Suite]{style="color: #32fbe2; font-weight: bold;"} (Visual Assets), and [ChatGPT]{style="color: #32fbe2; font-weight: bold;"} for instructional design.
+-   **Key Objective:** To demonstrate how [AI-driven video production]{style="color: #32fbe2;"} can reduce development time while maintaining high engagement and a human-centric feel for global teams.
+:::
+
+## [The Deliverable]{style="color: #32fbe2;"}
+
+::: {.p-3 style="border: 1px solid #32fbe2; border-radius: 10px; background-color: rgba(50, 251, 226, 0.02);"}
+![](images/0119(1).mp4)
+:::
+
+<br>
+
+By integrating **AI synthesis**, I addressed the need for **rapid content scalability**. This workflow ensures that learning materials can be updated or localized instantly, which is a critical requirement for global medicine teams operating in an **Agile environment**.
+
+<br>
+
+------------------------------------------------------------------------
+
+<br>
+
+::: {.p-4 .mb-5 style="border: 1px solid #b967ff; background-color: rgba(185, 103, 255, 0.03); border-radius: 15px; box-shadow: 0 4px 15px rgba(185, 103, 255, 0.1);"}
+## PROJECT 2
+
+**World Happiness Rankings 2024 – Interactive Visualization**
+
+I designed and developed an **interactive world map in Tableau** to visualize global happiness trends. The map uses a sophisticated color gradient where [dark blue]{style="color: #32fbe2; font-weight: bold;"} represents higher happiness scores, providing an immediate visual overview of global patterns.
+:::
+
+::: callout-note
+This project is for **non-commercial, portfolio purposes only**. It demonstrates the ethical application of **AI-driven tools** and the visualization of **publicly available data** to showcase digital design and instructional capabilities.
+:::
+
+## [The Interactive Experience]{style="color: #32fbe2;"}
+
+Users can explore **seven contributing factors**—including *Health, Social Support, and GDP per Capita*—through dynamic filters. Hovering over a country reveals exact scores, enabling an interactive, user-centered exploration of complex relationships.
+
+::: {#tableauContainer .p-2 style="border: 1px solid #32fbe2; border-radius: 10px; background-color: rgba(50, 251, 226, 0.02); overflow: hidden; line-height: 0;"}
+<iframe id="tableauViz" src="https://public.tableau.com/views/HappynessAroundtheWorldin2024/Dashboard1?:showVizHome=no&amp;:embed=true" style="width:100%; border:none; display: block;" allowfullscreen>
+
+</iframe>
+
+```{=html}
+<script>
+  function resizeTableau() {
+    var container = document.getElementById('tableauContainer');
+    var iframe = document.getElementById('tableauViz');
+    if (container && iframe) {
+      var width = container.offsetWidth;
+      // Kicsit igazítunk az arányokon (0.6 a 16:9-hez közeli, de a Tableau fejlécet is számolva)
+      var height = width * 0.65; 
+      iframe.style.height = height + 'px';
+    }
+  }
+  // Azonnali futtatás és eseményfigyelők
+  window.addEventListener('resize', resizeTableau);
+  window.onload = resizeTableau;
+  // Egy kis késleltetés, hogy a Quarto biztosan betöltődjön
+  setTimeout(resizeTableau, 500);
+</script>
+```
+:::
+
+<p style="text-align: center; margin-top: 10px;">
+
+[**Dynamic Data Exploration Interface**]{style="color: #32fbe2; font-style: italic; font-size: 0.9em;"}
+
+</p>
+
+<br>
+
+## [UX Design Principles Applied]{style="color: #32fbe2;"}
+
+::::: grid
+::: g-col-6
+### [Clear Information Hierarchy]{style="color: #b967ff;"}
+
+Structured into clickable points, allowing users to explore step-by-step instead of being overwhelmed by text blocks.
+
+### [User-Centered Navigation]{style="color: #b967ff;"}
+
+Intuitive visual interactions that significantly reduce **cognitive load** and improve data digestion.
+
+### [Global Scalability]{style="color: #b967ff;"}
+
+A modular structure designed for easy localization and expansion across global learning platforms (**LMS / LxP**).
+:::
+
+::: g-col-6
+### [Engagement & Retention]{style="color: #b967ff;"}
+
+Interactive hotspots encourage active exploration, increasing attention and knowledge retention compared to static content.
+
+### [Accessibility-Aware Design]{style="color: #b967ff;"}
+
+Designed with clear labels, high contrast, and **keyboard navigation** to support inclusive learning experiences.
+
+### [Strategic Alignment]{style="color: #b967ff;"}
+
+The map connects **visual storytelling** with structured information delivery to meet specific communication goals.
+:::
+:::::
+
+<br><br>
+
+::: {.p-3 style="text-align: center; font-size: 0.9em; opacity: 0.8; border-top: 1px solid #32fbe2;"}
+**Let's connect!** [LinkedIn ](https://www.linkedin.com/in/a-te-profilod){style="color: #b967ff; text-decoration: none; font-weight: bold;"}[Profile](https://www.linkedin.com/in/anna-zambo-059970230/){style="color: #b967ff; text-decoration: none; font-weight: bold;"} <br> *Created by Anna Zambo — Built with Quarto & Design Thinking 2026*
+:::
